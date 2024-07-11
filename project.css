@@ -1,0 +1,117 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ .banner{
+    background-image: linear-gradient(00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(.//home.jpeg);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+        }
+ .main{
+  padding: 300px 0 0 0;
+  text-align: center;
+   /* width: 800px; */
+ }
+ .main h4{
+  font-size: 30px;
+  text-align: center;
+  color: rgb(197, 196, 196);
+
+ }
+ .main h1{
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 64px;
+line-height: 70px;
+margin-top: 8px;
+ }
+ .main p{
+   text-align: center;
+   color: #d8d8d8;
+   line-height: 28px;
+   margin-top: 12px;
+ }
+ .main button{
+  background-color: green;
+  color: #fff;
+  font-size: 15px;
+  border-style: none;
+  padding: 15px 20px;
+  margin-top: 24px;
+  cursor: pointer;
+ }
+
+ /*cardbox*/
+
+.text{
+  text-align: center;
+  margin: 100px 200px;
+ }
+ .text h3{
+  font-size: 29px;
+  color: #646464;
+ }
+ .text h1{
+  font-size: 64px;
+ }
+ .box{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 48px 200px 0px;
+  gap: 0px 30px;
+  margin-bottom: 50px;
+ }
+ .box h2{
+  background-color: #e5f6d9;
+  color: rgb(33, 33, 33);
+  justify-content: center;
+  align-items: center;
+  padding: 14px 32px 10px 32px;
+  margin: 15px 120px;
+}
+.box h1{
+  font-size: 40px;
+  padding-bottom: 8px;
+}
+.box p{
+  line-height: 22px;
+}
+/* about us */
+.about{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+.about1 img {
+  height: 329px;
+  width: 700px;
+  margin: 0px 58px;
+}
+.about2 {
+	text-align: center;
+  padding: 40px 30px;
+}
+.about2 h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.about2 p{
+  color: rgb(64, 64, 64);
+  font-size: 18px;
+}
+.about2 h2{
+  margin-top: 35px;
+  color: #2f2f2f;
+  border: solid;
+  border-color: #e5f6d9;
+  padding: 10px 19px;
+  cursor: pointer;
+}
+.about2 i{
+  margin-top: 40px;
+ padding-left: 20px;
+}
